@@ -20,12 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b0cb4d8-3210-4523-95f5-392de8aaac33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/geekshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geekshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_main_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -60,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,11 +79,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\geekBrains\Django\geekshop\static\css" />
       <recent name="D:\geekBrains\Django\geekshop\static" />
       <recent name="D:\geekBrains\Django\geekshop" />
       <recent name="D:\geekBrains\Django\geekshop\mainapp\templates\mainapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\geekBrains\Django\geekshop\static" />
       <recent name="D:\geekBrains\Django\geekshop\static\css" />
       <recent name="D:\geekBrains\Django\geekshop\static\dddd" />
       <recent name="D:\geekBrains\Django\geekshop\media\products" />
@@ -131,7 +140,8 @@
       <workItem from="1635186713269" duration="84000" />
       <workItem from="1635186808103" duration="753000" />
       <workItem from="1635187583253" duration="759000" />
-      <workItem from="1635188366367" duration="12853000" />
+      <workItem from="1635188366367" duration="20375000" />
+      <workItem from="1635779794346" duration="8497000" />
     </task>
     <servers />
   </component>
@@ -159,10 +169,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1634748685071" />
-    <state x="526" y="203" key="#Notifications" timestamp="1635186992786">
+    <state x="526" y="203" key="#Notifications" timestamp="1635779811106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="526" y="203" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1635186992786" />
+    <state x="526" y="203" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1635779811106" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635188466936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -171,6 +181,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1634459910795" />
+    <state width="544" height="438" key="DebuggerActiveHint" timestamp="1635444148462">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="544" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1635444148462" />
     <state x="509" y="90" width="757" height="568" key="EnvironmentVariablesDialog" timestamp="1635188342645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -179,22 +193,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1635185026920" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1635355303839">
+    <state width="1237" height="126" key="GridCell.Tab.0.bottom" timestamp="1636020238481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1635355303839" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1635355303839">
+    <state width="1237" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636020238481" />
+    <state width="1237" height="126" key="GridCell.Tab.0.center" timestamp="1636020238481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1635355303839" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1635355303839">
+    <state width="1237" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636020238481" />
+    <state width="1237" height="126" key="GridCell.Tab.0.left" timestamp="1636020238481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1635355303839" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1635355303839">
+    <state width="1237" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636020238481" />
+    <state width="1237" height="126" key="GridCell.Tab.0.right" timestamp="1636020238481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1635355303839" />
+    <state width="1237" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636020238481" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1636019375159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636019375159" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1636019375159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636019375159" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1636019375159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636019375159" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1636019375159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636019375159" />
     <state x="182" y="0" key="SettingsEditor" timestamp="1635187950423">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
