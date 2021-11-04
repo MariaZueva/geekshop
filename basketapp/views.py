@@ -1,12 +1,17 @@
-# Create your views here.
-from django.shortcuts import get_object_or_404, HttpResponseRedirect
+from django.http import HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404
 
 from basketapp.models import Basket
 from mainapp.models import Product
 
 
 def basket(request):
-    pass
+    basket_list = Basket.objects.filter(user=request.user)
+
+    context = {
+        'baskets': basket_list
+    }
+    return render(request, 'basketapp/base.html', context)
 
 
 def add(request, pk):
@@ -22,5 +27,7 @@ def add(request, pk):
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
 
-def remove(requet, pk):
-    pass
+def remove(request, pk):
+    basket_item = get_object_or_404(Basket, pk=pk)
+    basket_item.delete()
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))

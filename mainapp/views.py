@@ -10,7 +10,16 @@ from mainapp.models import ProductCategory
 def get_basket(user):
     if user.is_authenticated:
         return Basket.objects.filter(user=user)
-    return []
+    return None
+
+
+def get_hot_product():
+    return random.sample(list(Product.objects.all()), 1)[0]
+
+
+def get_same_products(hot_product):
+    products_list = Product.objects.filter(category=hot_product.category).exclude(pk=hot_product.pk)[:3]
+    return products_list
 
 
 def main(request):
@@ -45,8 +54,10 @@ def products(request, pk=None):
 
         return render(request, 'mainapp/products_list.html', context=context)
 
-    hot_product = random.sample(list(Product.objects.all()), 1)[0]
-    same_products = Product.objects.all()[3:5]
+    hot_product = get_hot_product()
+
+    same_products = get_same_products(hot_product)
+
     context = {
         'title': title,
         'links_menu': links_menu,
