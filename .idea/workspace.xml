@@ -21,14 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cb4d8-3210-4523-95f5-392de8aaac33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authapp/templates/authapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/authapp/templates/authapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketapp/templates/basketapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketapp/templates/basketapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketapp/templates/basketapp/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketapp/templates/basketapp/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basketapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_main_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/products_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/products_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,18 +80,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\geekBrains\Django\geekshop\static\js" />
+      <recent name="D:\geekBrains\Django\geekshop\authapp\templates\authapp" />
+      <recent name="D:\geekBrains\Django\geekshop\basketapp\templates\basketapp" />
+      <recent name="D:\geekBrains\Django\geekshop\static\css" />
+      <recent name="D:\geekBrains\Django\geekshop\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\geekBrains\Django\geekshop\static" />
       <recent name="D:\geekBrains\Django\geekshop\static\css" />
       <recent name="D:\geekBrains\Django\geekshop\static\dddd" />
       <recent name="D:\geekBrains\Django\geekshop\media\products" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\geekBrains\Django\geekshop\authapp\templates\authapp" />
-      <recent name="D:\geekBrains\Django\geekshop\basketapp\templates\basketapp" />
-      <recent name="D:\geekBrains\Django\geekshop\static\css" />
-      <recent name="D:\geekBrains\Django\geekshop\static" />
-      <recent name="D:\geekBrains\Django\geekshop" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,6 +145,7 @@
       <workItem from="1635187583253" duration="759000" />
       <workItem from="1635188366367" duration="20375000" />
       <workItem from="1635779794346" duration="20093000" />
+      <workItem from="1636033398462" duration="8492000" />
     </task>
     <servers />
   </component>
@@ -175,6 +181,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1636032825211" />
+    <state x="375" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636109474016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="375" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1636109474016" />
     <state x="389" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1634459910795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -191,22 +201,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1635185026920" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1636033380588">
+    <state width="1237" height="126" key="GridCell.Tab.0.bottom" timestamp="1636110669428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636033380588" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1636033380587">
+    <state width="1237" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636110669428" />
+    <state width="1237" height="126" key="GridCell.Tab.0.center" timestamp="1636110669427">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636033380587" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1636033380587">
+    <state width="1237" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636110669427" />
+    <state width="1237" height="126" key="GridCell.Tab.0.left" timestamp="1636110669426">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636033380587" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1636033380588">
+    <state width="1237" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636110669426" />
+    <state width="1237" height="126" key="GridCell.Tab.0.right" timestamp="1636110669427">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636033380588" />
+    <state width="1237" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636110669427" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1636033380588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
