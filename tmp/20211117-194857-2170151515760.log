@@ -1,0 +1,11 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Accaunt activate
+From: django@gb.local
+To: zuevamary95@gmail.com
+Date: Wed, 17 Nov 2021 16:48:57 -0000
+Message-ID: <163716773765.13556.15735171361797697167@WIN-SLG2F54KI8K>
+
+You activation url http://127.0.0.1:8000/auth/verify/zuevamary95@gmail.com/6964b668d0e6b52769c5d89a5ed3c36cb2175271/
+-------------------------------------------------------------------------------

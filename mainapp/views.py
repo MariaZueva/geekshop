@@ -8,12 +8,6 @@ from mainapp.models import Product
 from mainapp.models import ProductCategory
 
 
-def get_basket(user):
-    if user.is_authenticated:
-        return Basket.objects.filter(user=user)
-    return None
-
-
 def get_hot_product():
     return random.sample(list(Product.objects.all()), 1)[0]
 
@@ -27,7 +21,6 @@ def main(request):
     context = {
         'title': 'Главная',
         'products': Product.objects.all()[:4],
-        'basket': get_basket(request.user)
     }
     return render(request, 'mainapp/index.html', context)
 
@@ -59,7 +52,6 @@ def products(request, pk=None, page=1):
             'title': 'Продукты',
             'category': category_item,
             'products': products_paginator,
-            'basket': get_basket(request.user)
         }
 
         return render(request, 'mainapp/products_list.html', context=context)
@@ -73,7 +65,6 @@ def products(request, pk=None, page=1):
         'links_menu': links_menu,
         'same_products': same_products,
         'hot_product': hot_product,
-        'basket': get_basket(request.user)
     }
 
     return render(request, 'mainapp/products.html', context=context)
@@ -82,7 +73,6 @@ def products(request, pk=None, page=1):
 def contact(request):
     context = {
         'title': 'Контакты',
-        'basket': get_basket(request.user)
     }
     return render(request, 'mainapp/contact.html', context)
 
@@ -92,8 +82,7 @@ def product(request, pk):
     context = {
         'product': get_object_or_404(Product, pk=pk),
         'links_menu': links_menu,
-        'title': 'Продукты',
-        'basket': get_basket(request.user)
+        'title': 'Продукты'
     }
 
     return render(request, 'mainapp/product.html', context=context)
